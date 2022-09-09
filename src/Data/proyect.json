@@ -1,0 +1,27 @@
+
+{
+    "porfolio":[
+        {
+            "cover":"porfolio/TMDB.png",
+            "title":"TMDB",
+            "description":"Página web de películas con información acerca de ellas, utilizando la API de TMDB.",
+            "skill":"React, Redux, Node.js, Express, SQL, Passport.",
+            "url":"https://github.com/Maxi-Rios/TMDB-CodingBootcamp"
+        }
+        ,
+        {
+            "cover":"porfolio/SixCoffe.png",
+            "title":"Six Coffe",
+            "description":"E-commerce de venta de cafes, desarrollado en enquipo de 5 persona",
+            "skill":"React, Redux, Node.js, Express,Passport, Moongose.",
+            "url":"https://github.com/frossi16/e-commerce-Six-Coffee"
+        },
+        {
+            "cover":"porfolio/cine.webp",
+            "title":"Virtual Events Tonic3",
+            "description":"Aplicación web de streaming de videos desde una landing page, responsive, multilenguaje (inglés, español y portugués), tiene en cuenta la zona horaria del usuario para la fecha de transmisión.",
+            "skill":"React, Redux, React-Bootstrap, React-Router, HTML & CSS, SASS, Formik, Node, Express, PostgreSQL, Sequelize, JWT",
+            "url":"https://github.com/marshelaillon/tonic3-client"
+        }
+    ]
+}
