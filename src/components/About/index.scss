@@ -72,3 +72,29 @@
         transform: rotateY(90deg);
     }
 }
+
+.flat-btn{
+
+    .text-btn{
+        text-decoration: none;
+        color: #fff;
+
+    }
+     line-height: 34px;
+     border: 2px solid #ffd700;
+     border-radius: 4px;
+     font-size: 14px;
+     background: transparent;
+     text-transform: uppercase;
+     font-weight:700;
+     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+     cursor: pointer;
+}
+
+.flat-btn:hover{
+    .text-btn{
+        color: #022c43;
+    }
+    transform: translateY(-4px);
+    background: #ffd700;
+}

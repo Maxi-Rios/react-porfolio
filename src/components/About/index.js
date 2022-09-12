@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faGitAlt, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import CV from '../../assts/imges/Maxi_Rios_CV.pdf'
 
 
 const About = () => {
@@ -30,6 +31,7 @@ const About = () => {
                     <p>Soy un Full Stack Developer que busca un puesto en una empresa de IT establecida con la oportunidad de trabajar en proyectos desafiante y diversos.</p>
                     <p>Soy curioso y trabajo perpetuamente para ir mejorando mis habilidades.</p>
                     <p> Fanático de la música, entusiasta de la fotografía y apasionado de la tecnología. </p>
+                    <button className='flat-btn'><a className='text-btn' href={CV} download='Maxi_Rios_CV'>Descargar C.V</a></button>
                 </div>
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>
