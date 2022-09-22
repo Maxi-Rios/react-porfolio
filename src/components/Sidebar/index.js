@@ -71,7 +71,7 @@ const Sidebar = () => {
                 </nav>
                 <ul>
                     <li>
-                        <a className='red' target='_blank' rel='noreferrer'
+                        <a onClick={() => setShowNav(false)} className='red' target='_blank' rel='noreferrer'
                             href='https://www.linkedin.com/in/maxi-rios93/'
                         >
                             <FontAwesomeIcon icon={faLinkedin} />
